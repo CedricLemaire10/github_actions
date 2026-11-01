@@ -8,3 +8,5 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: echo "Hello, CI/CD!"
+      - name: Vérifier la version de python
+        run: python --version
